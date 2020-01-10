@@ -19,7 +19,7 @@
 
     $ cd venv/bin/activate 
 
-#### rename folder
+## rename folder
 
 Rename `django3Boilerplate`  to `src`
 
