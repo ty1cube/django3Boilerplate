@@ -37,6 +37,13 @@ Rename `django3Boilerplate`  to `src`
 #### Migrate
 
     $ python manage.py migrate
+#### create a static folder
+
+Create `static_env` folder in `src `  directory
+
+#### Collect static files
+
+    $ python manage.py collectstatic
 
 #### Runserver
 

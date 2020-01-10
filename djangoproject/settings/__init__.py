@@ -1,16 +1,16 @@
-import sys
+# import sys
 
-if 'runserver' in sys.argv:
-    from .development import *
-else:
-    from .production import *
-
-
-# from .base import *
-
-# try:
+# if 'runserver' in sys.argv:
 #     from .development import *
-# except:
+# else:
 #     from .production import *
+
+
+from .base import *
+
+try:
+    from .development import *
+except:
+    from .production import *
 
 
