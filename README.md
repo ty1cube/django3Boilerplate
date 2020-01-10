@@ -8,26 +8,33 @@
 
 #### Create and activate virtual environment
 
-`virtualenv env`
+$ virtualenv env
 
-cd venv/Scripts/activate On Window
+##### On window
 
-cd venv/bin/activate On Linux or Mac
+$ cd venv/Scripts/activate 
 
-rename django3Boilerplate directory to src
+
+##### On Linux or Mac
+
+    $ cd venv/bin/activate 
+
+#### rename django3Boilerplate directory to src
 
     $ cd into src
 
-Install the requirement
-pip install -r requirements.txt
+#### Install the requirement
 
-Rename the project folder
+    $ pip install -r requirements.txt
 
-python manage.py rename myproject
+#### Rename the project folder
 
-Migrate
-python manage.py migrate
+    $ python manage.py rename myproject
 
-Runserver
+#### Migrate
 
-python manage.py runserver
+    $ python manage.py migrate
+
+#### Runserver
+
+    $ python manage.py runserver
