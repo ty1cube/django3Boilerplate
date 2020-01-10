@@ -8,18 +8,18 @@
 
 #### Create and activate virtual environment
 
-$ virtualenv env
+    $ virtualenv env
 
 ##### On window
 
-$ cd venv/Scripts/activate 
+    $ cd venv/Scripts/activate 
 
 
 ##### On Linux or Mac
 
     $ cd venv/bin/activate 
 
-#### rename django3Boilerplate directory to src
+#### rename 'django3Boilerplate' directory to "src"
 
     $ cd into src
 
